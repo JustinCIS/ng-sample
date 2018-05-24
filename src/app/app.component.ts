@@ -1,12 +1,14 @@
 ﻿import { Component, ViewChild } from '@angular/core';
 import { MatPaginator, MatSort, MatTableDataSource } from '@angular/material';
+import { UserData } from './interfaces/userdata';
+import { AppComponentBase } from './app.component.base';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent extends AppComponentBase {
     title = 'app';
     displayedColumns = ['id', 'name', 'progress', 'color'];
     dataSource: MatTableDataSource<UserData>;
@@ -15,9 +17,12 @@ export class AppComponent {
     @ViewChild(MatSort) sort: MatSort;
 
     constructor() {
+        super();
         // Create 100 users
         const users: UserData[] = [];
-        for (let i = 1; i <= 100; i++) { users.push(createNewUser(i)); }
+        for (let i = 1; i <= 100; i++) {
+            users.push(this.createNewUser(i));
+        }
 
         // Assign the data to the data source for the table to render
         this.dataSource = new MatTableDataSource(users);
@@ -36,32 +41,18 @@ export class AppComponent {
             this.dataSource.paginator.firstPage();
         }
     }
-}
 
-/** Builds and returns a new User. */
-function createNewUser(id: number): UserData {
-    const name =
-        NAMES[Math.round(Math.random() * (NAMES.length - 1))] + ' ' +
-        NAMES[Math.round(Math.random() * (NAMES.length - 1))].charAt(0) + '.';
+    /** Builds and returns a new User. */
+    createNewUser(id: number): UserData {
+      const name =
+          this.NAMES[Math.round(Math.random() * (this.NAMES.length - 1))] + ' ' +
+          this.NAMES[Math.round(Math.random() * (this.NAMES.length - 1))].charAt(0) + '.';
 
-    return {
-        id: id.toString(),
-        name: name,
-        progress: Math.round(Math.random() * 100).toString(),
-        color: COLORS[Math.round(Math.random() * (COLORS.length - 1))]
-    };
-}
-
-/** Constants used to fill up our data base. */
-const COLORS = ['maroon', 'red', 'orange', 'yellow', 'olive', 'green', 'purple',
-    'fuchsia', 'lime', 'teal', 'aqua', 'blue', 'navy', 'black', 'gray'];
-const NAMES = ['Maia', 'Asher', 'Olivia', 'Atticus', 'Amelia', 'Jack',
-    'Charlotte', 'Theodore', 'Isla', 'Oliver', 'Isabella', 'Jasper',
-    'Cora', 'Levi', 'Violet', 'Arthur', 'Mia', 'Thomas', 'Elizabeth'];
-
-export interface UserData {
-    id: string;
-    name: string;
-    progress: string;
-    color: string;
+      return {
+          id: id.toString(),
+          name: name,
+          progress: Math.round(Math.random() * 100).toString(),
+          color: this.COLORS[Math.round(Math.random() * (this.COLORS.length - 1))]
+      };
+    }
 }
