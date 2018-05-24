@@ -9,7 +9,7 @@ import { AppComponentBase } from './app.component.base';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent extends AppComponentBase {
-    title = 'app';
+    title = 'WELCOME TO MY ANGULAR5 PORTFOLIO';
     displayedColumns = ['id', 'name', 'progress', 'color'];
     dataSource: MatTableDataSource<UserData>;
 
