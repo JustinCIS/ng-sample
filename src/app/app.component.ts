@@ -3,6 +3,7 @@ import { MatPaginator, MatSort, MatTableDataSource } from '@angular/material';
 import { UserData } from './interfaces/userdata';
 import { AppComponentBase } from './app.component.base';
 import { AppComponentService } from './services/app.component.service';
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -27,7 +28,7 @@ export class AppComponent extends AppComponentBase {
         let users: UserData[] = [];
 
         // Retrieve users from JSON file
-        this.appComponentService.customGet('../assets/userdata.json').subscribe(
+        this.appComponentService.customGet(environment.context + 'assets/userdata.json').subscribe(
             jsonResponse => {
                 users = jsonResponse;
 
