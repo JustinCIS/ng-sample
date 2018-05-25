@@ -5,6 +5,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatCheckboxModule, MatTableModule, MatFormFieldModule, MatPaginatorModule, MatInputModule, MatSortModule, MatCardModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
+import { HttpBaseService } from './services/http-base.service';
+import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -13,6 +16,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpModule,
+    HttpClientModule,
     MatButtonModule,
     MatCheckboxModule,
     MatTableModule,
@@ -22,7 +27,9 @@ import { AppComponent } from './app.component';
     MatSortModule,
     MatCardModule
   ],
-  providers: [],
+    providers: [
+        HttpBaseService
+    ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

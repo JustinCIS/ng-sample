@@ -1,0 +1,602 @@
+﻿[
+  {
+    "id": "1",
+    "name": "Arthur I.",
+    "progress": "52",
+    "color": "navy"
+  },
+  {
+    "id": "2",
+    "name": "Asher J.",
+    "progress": "59",
+    "color": "gray"
+  },
+  {
+    "id": "3",
+    "name": "Atticus O.",
+    "progress": "16",
+    "color": "orange"
+  },
+  {
+    "id": "4",
+    "name": "Charlotte O.",
+    "progress": "34",
+    "color": "navy"
+  },
+  {
+    "id": "5",
+    "name": "Levi I.",
+    "progress": "71",
+    "color": "aqua"
+  },
+  {
+    "id": "6",
+    "name": "Isabella T.",
+    "progress": "69",
+    "color": "lime"
+  },
+  {
+    "id": "7",
+    "name": "Levi M.",
+    "progress": "15",
+    "color": "black"
+  },
+  {
+    "id": "8",
+    "name": "Mia I.",
+    "progress": "96",
+    "color": "fuchsia"
+  },
+  {
+    "id": "9",
+    "name": "Violet J.",
+    "progress": "65",
+    "color": "orange"
+  },
+  {
+    "id": "10",
+    "name": "Jasper J.",
+    "progress": "30",
+    "color": "navy"
+  },
+  {
+    "id": "11",
+    "name": "Levi T.",
+    "progress": "58",
+    "color": "orange"
+  },
+  {
+    "id": "12",
+    "name": "Arthur V.",
+    "progress": "88",
+    "color": "orange"
+  },
+  {
+    "id": "13",
+    "name": "Atticus A.",
+    "progress": "38",
+    "color": "blue"
+  },
+  {
+    "id": "14",
+    "name": "Levi C.",
+    "progress": "84",
+    "color": "yellow"
+  },
+  {
+    "id": "15",
+    "name": "Isabella C.",
+    "progress": "32",
+    "color": "navy"
+  },
+  {
+    "id": "16",
+    "name": "Isabella J.",
+    "progress": "80",
+    "color": "red"
+  },
+  {
+    "id": "17",
+    "name": "Mia T.",
+    "progress": "46",
+    "color": "teal"
+  },
+  {
+    "id": "18",
+    "name": "Oliver T.",
+    "progress": "13",
+    "color": "blue"
+  },
+  {
+    "id": "19",
+    "name": "Isla J.",
+    "progress": "56",
+    "color": "green"
+  },
+  {
+    "id": "20",
+    "name": "Arthur A.",
+    "progress": "87",
+    "color": "blue"
+  },
+  {
+    "id": "21",
+    "name": "Levi C.",
+    "progress": "41",
+    "color": "olive"
+  },
+  {
+    "id": "22",
+    "name": "Amelia I.",
+    "progress": "34",
+    "color": "lime"
+  },
+  {
+    "id": "23",
+    "name": "Jasper C.",
+    "progress": "3",
+    "color": "aqua"
+  },
+  {
+    "id": "24",
+    "name": "Olivia A.",
+    "progress": "99",
+    "color": "green"
+  },
+  {
+    "id": "25",
+    "name": "Amelia L.",
+    "progress": "89",
+    "color": "black"
+  },
+  {
+    "id": "26",
+    "name": "Olivia O.",
+    "progress": "98",
+    "color": "maroon"
+  },
+  {
+    "id": "27",
+    "name": "Charlotte O.",
+    "progress": "17",
+    "color": "red"
+  },
+  {
+    "id": "28",
+    "name": "Mia L.",
+    "progress": "90",
+    "color": "navy"
+  },
+  {
+    "id": "29",
+    "name": "Isla J.",
+    "progress": "46",
+    "color": "navy"
+  },
+  {
+    "id": "30",
+    "name": "Asher J.",
+    "progress": "15",
+    "color": "teal"
+  },
+  {
+    "id": "31",
+    "name": "Levi A.",
+    "progress": "0",
+    "color": "yellow"
+  },
+  {
+    "id": "32",
+    "name": "Levi I.",
+    "progress": "48",
+    "color": "blue"
+  },
+  {
+    "id": "33",
+    "name": "Amelia O.",
+    "progress": "66",
+    "color": "lime"
+  },
+  {
+    "id": "34",
+    "name": "Violet T.",
+    "progress": "6",
+    "color": "maroon"
+  },
+  {
+    "id": "35",
+    "name": "Isabella M.",
+    "progress": "78",
+    "color": "lime"
+  },
+  {
+    "id": "36",
+    "name": "Isabella M.",
+    "progress": "79",
+    "color": "aqua"
+  },
+  {
+    "id": "37",
+    "name": "Isabella J.",
+    "progress": "68",
+    "color": "red"
+  },
+  {
+    "id": "38",
+    "name": "Jasper I.",
+    "progress": "23",
+    "color": "blue"
+  },
+  {
+    "id": "39",
+    "name": "Cora V.",
+    "progress": "39",
+    "color": "red"
+  },
+  {
+    "id": "40",
+    "name": "Atticus V.",
+    "progress": "86",
+    "color": "purple"
+  },
+  {
+    "id": "41",
+    "name": "Theodore A.",
+    "progress": "75",
+    "color": "blue"
+  },
+  {
+    "id": "42",
+    "name": "Asher C.",
+    "progress": "90",
+    "color": "fuchsia"
+  },
+  {
+    "id": "43",
+    "name": "Asher E.",
+    "progress": "23",
+    "color": "navy"
+  },
+  {
+    "id": "44",
+    "name": "Thomas I.",
+    "progress": "47",
+    "color": "yellow"
+  },
+  {
+    "id": "45",
+    "name": "Violet L.",
+    "progress": "46",
+    "color": "orange"
+  },
+  {
+    "id": "46",
+    "name": "Jack E.",
+    "progress": "43",
+    "color": "orange"
+  },
+  {
+    "id": "47",
+    "name": "Thomas C.",
+    "progress": "60",
+    "color": "orange"
+  },
+  {
+    "id": "48",
+    "name": "Theodore J.",
+    "progress": "15",
+    "color": "teal"
+  },
+  {
+    "id": "49",
+    "name": "Jasper A.",
+    "progress": "17",
+    "color": "maroon"
+  },
+  {
+    "id": "50",
+    "name": "Charlotte T.",
+    "progress": "91",
+    "color": "aqua"
+  },
+  {
+    "id": "51",
+    "name": "Isla A.",
+    "progress": "66",
+    "color": "red"
+  },
+  {
+    "id": "52",
+    "name": "Thomas J.",
+    "progress": "83",
+    "color": "aqua"
+  },
+  {
+    "id": "53",
+    "name": "Amelia A.",
+    "progress": "15",
+    "color": "purple"
+  },
+  {
+    "id": "54",
+    "name": "Arthur A.",
+    "progress": "9",
+    "color": "purple"
+  },
+  {
+    "id": "55",
+    "name": "Mia J.",
+    "progress": "48",
+    "color": "red"
+  },
+  {
+    "id": "56",
+    "name": "Amelia I.",
+    "progress": "51",
+    "color": "olive"
+  },
+  {
+    "id": "57",
+    "name": "Jasper A.",
+    "progress": "14",
+    "color": "teal"
+  },
+  {
+    "id": "58",
+    "name": "Oliver O.",
+    "progress": "65",
+    "color": "aqua"
+  },
+  {
+    "id": "59",
+    "name": "Violet A.",
+    "progress": "31",
+    "color": "fuchsia"
+  },
+  {
+    "id": "60",
+    "name": "Thomas J.",
+    "progress": "55",
+    "color": "navy"
+  },
+  {
+    "id": "61",
+    "name": "Levi C.",
+    "progress": "93",
+    "color": "green"
+  },
+  {
+    "id": "62",
+    "name": "Maia A.",
+    "progress": "71",
+    "color": "blue"
+  },
+  {
+    "id": "63",
+    "name": "Atticus T.",
+    "progress": "3",
+    "color": "orange"
+  },
+  {
+    "id": "64",
+    "name": "Jack I.",
+    "progress": "29",
+    "color": "blue"
+  },
+  {
+    "id": "65",
+    "name": "Charlotte C.",
+    "progress": "100",
+    "color": "gray"
+  },
+  {
+    "id": "66",
+    "name": "Thomas J.",
+    "progress": "78",
+    "color": "maroon"
+  },
+  {
+    "id": "67",
+    "name": "Atticus A.",
+    "progress": "92",
+    "color": "black"
+  },
+  {
+    "id": "68",
+    "name": "Isabella C.",
+    "progress": "0",
+    "color": "teal"
+  },
+  {
+    "id": "69",
+    "name": "Thomas A.",
+    "progress": "58",
+    "color": "black"
+  },
+  {
+    "id": "70",
+    "name": "Jasper I.",
+    "progress": "79",
+    "color": "red"
+  },
+  {
+    "id": "71",
+    "name": "Asher T.",
+    "progress": "38",
+    "color": "fuchsia"
+  },
+  {
+    "id": "72",
+    "name": "Isla T.",
+    "progress": "71",
+    "color": "green"
+  },
+  {
+    "id": "73",
+    "name": "Isabella C.",
+    "progress": "43",
+    "color": "green"
+  },
+  {
+    "id": "74",
+    "name": "Isabella O.",
+    "progress": "86",
+    "color": "aqua"
+  },
+  {
+    "id": "75",
+    "name": "Atticus O.",
+    "progress": "79",
+    "color": "navy"
+  },
+  {
+    "id": "76",
+    "name": "Levi J.",
+    "progress": "30",
+    "color": "black"
+  },
+  {
+    "id": "77",
+    "name": "Atticus L.",
+    "progress": "40",
+    "color": "lime"
+  },
+  {
+    "id": "78",
+    "name": "Asher A.",
+    "progress": "10",
+    "color": "blue"
+  },
+  {
+    "id": "79",
+    "name": "Jasper O.",
+    "progress": "73",
+    "color": "blue"
+  },
+  {
+    "id": "80",
+    "name": "Thomas I.",
+    "progress": "44",
+    "color": "fuchsia"
+  },
+  {
+    "id": "81",
+    "name": "Oliver A.",
+    "progress": "85",
+    "color": "fuchsia"
+  },
+  {
+    "id": "82",
+    "name": "Asher O.",
+    "progress": "9",
+    "color": "yellow"
+  },
+  {
+    "id": "83",
+    "name": "Amelia T.",
+    "progress": "96",
+    "color": "black"
+  },
+  {
+    "id": "84",
+    "name": "Theodore A.",
+    "progress": "98",
+    "color": "fuchsia"
+  },
+  {
+    "id": "85",
+    "name": "Atticus L.",
+    "progress": "72",
+    "color": "blue"
+  },
+  {
+    "id": "86",
+    "name": "Asher A.",
+    "progress": "10",
+    "color": "red"
+  },
+  {
+    "id": "87",
+    "name": "Isabella O.",
+    "progress": "48",
+    "color": "purple"
+  },
+  {
+    "id": "88",
+    "name": "Jasper I.",
+    "progress": "57",
+    "color": "yellow"
+  },
+  {
+    "id": "89",
+    "name": "Maia V.",
+    "progress": "32",
+    "color": "maroon"
+  },
+  {
+    "id": "90",
+    "name": "Asher C.",
+    "progress": "39",
+    "color": "yellow"
+  },
+  {
+    "id": "91",
+    "name": "Isabella T.",
+    "progress": "42",
+    "color": "navy"
+  },
+  {
+    "id": "92",
+    "name": "Amelia I.",
+    "progress": "56",
+    "color": "navy"
+  },
+  {
+    "id": "93",
+    "name": "Levi C.",
+    "progress": "72",
+    "color": "teal"
+  },
+  {
+    "id": "94",
+    "name": "Theodore A.",
+    "progress": "55",
+    "color": "fuchsia"
+  },
+  {
+    "id": "95",
+    "name": "Asher O.",
+    "progress": "81",
+    "color": "yellow"
+  },
+  {
+    "id": "96",
+    "name": "Jasper A.",
+    "progress": "46",
+    "color": "yellow"
+  },
+  {
+    "id": "97",
+    "name": "Levi A.",
+    "progress": "100",
+    "color": "yellow"
+  },
+  {
+    "id": "98",
+    "name": "Maia A.",
+    "progress": "31",
+    "color": "red"
+  },
+  {
+    "id": "99",
+    "name": "Jack T.",
+    "progress": "83",
+    "color": "red"
+  },
+  {
+    "id": "100",
+    "name": "Jasper O.",
+    "progress": "13",
+    "color": "red"
+  }
+]
